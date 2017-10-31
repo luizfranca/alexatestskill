@@ -19,16 +19,12 @@ app.error = function( exception, request, response ) {
 
 app.intent('sayNumber',
   {
-    "slots":{"number":"NUMBER"}
 	,"utterances":[ 
-		"say the number {1-100|number}",
-		"give me the number {1-100|number}",
-		"tell me the number {1-100|number}",
-		"I want to hear you say the number {1-100|number}"]
+		"tell me about cesar"]
   },
   function(request,response) {
     var number = request.slot('number');
-    response.say("Somos um centro privado de inovação que cria produtos, serviços e negócios com Tecnologias da Informação e Comunicação (TICs). Desde 1996, desenvolvemos soluções em todo o processo de geração de inovação em e com TICs - desde o desenvolvimento da ideia, passando pela concepção e prototipação, até a execução de projetos para empresas dos mais diversos setores, como telecomunicações, eletroeletrônicos, defesa, automação comercial, financeiro, logística, energia, saúde e agronegócio. Em 2014, o CESAR superou a marca de R$ 90 milhões em vendas de projetos de inovação.");
+    response.say("We are a private innovation centre that creates products, services and businesses involving Communication and Information Technologies (ICTs). Since 1996, we develop solutions that permeate the whole process of generating innovation in and with ICTs – from idea development, passing through conception and prototyping, up to the execution of projects for organizations from various sectors, such as telecom, electronics, defence, commercial automation, finances, logistics, energy, health and agribusiness. In 2016, CESAR’s innovation project sales surpassed R$ 78 million.");
   }
 );
 
