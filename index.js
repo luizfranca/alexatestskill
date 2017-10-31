@@ -19,7 +19,8 @@ app.error = function( exception, request, response ) {
 
 app.intent('sayNumber',
   {
-	,"utterances":[ 
+  	// "slots":{"number":"NUMBER"}
+	"utterances":[ 
 		"tell me about cesar"]
   },
   function(request,response) {
