@@ -32,7 +32,7 @@ app.intent('cesarinfo',
   	card = {
       "type": "simple",
       "title": "CESAR Info",
-      "content": message,
+      "content": message
     }
 
 
