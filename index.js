@@ -23,18 +23,16 @@ app.intent('cesarinfo',
 	"utterances":[ 
 		"tell me about cesar",
 		"tell me you",
-		"who are you"]
+		"who are you",
+		"tell me about yourself"]
   },
   function(request,response) {
   	message = "We are a private innovation centre that creates products, services and businesses involving Communication and Information Technologies (ICTs). Since 1996, we develop solutions that permeate the whole process of generating innovation in and with ICTs – from idea development, passing through conception and prototyping, up to the execution of projects for organizations from various sectors, such as telecom, electronics, defence, commercial automation, finances, logistics, energy, health and agribusiness. In 2016, CESAR’s innovation project sales surpassed R$ 78 million."
 
   	card = {
-      "type": "Standard",
+      "type": "simple",
       "title": "CESAR Info",
-      "text": message,
-      "image": { 
-    	smallImageUrl: "https://upload.wikimedia.org/wikipedia/commons/b/b6/Logo_CESAR.png"
-  	  }
+      "content": message,
     }
 
 
