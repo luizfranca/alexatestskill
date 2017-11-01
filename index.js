@@ -31,7 +31,10 @@ app.intent('cesarinfo',
   	card = {
       "type": "Standard",
       "title": "CESAR Info",
-      "content": message
+      "content": message,
+      "image": { 
+    	smallImageUrl: "https://www.thesun.co.uk/wp-content/uploads/2016/10/nintchdbpict0002636892391.jpg?w=960"
+  	  }
     }
 
 
