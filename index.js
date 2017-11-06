@@ -60,11 +60,15 @@ app.intent('cesardirective',
         "template": {
           "type":"BodyTemplate1",
           "token": "A2079",
-          // "backButton": "VISIBLE"(default) | "HIDDEN",
+          "backButton": "VISIBLE",
           "backgroundImage": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Logo_CESAR.png",
           "title": "This is a title",
-          "textContent": "This is the text content of this card, i have no idea what to write\
-          so i'm just going to write a lot of text to test the scroll"
+          "textContent": {
+            "primaryText": {
+              "text": "This is the text content of this card, i have no idea what to write\
+            so i'm just going to write a lot of text to test the scroll",
+              "type": "string"
+            }
         }
       }
 
