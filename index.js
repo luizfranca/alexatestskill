@@ -57,30 +57,11 @@ app.intent('cesardirective',
 
     dir = 
         {
-          "type": "Display.RenderTemplate",
-          "template": {
-            "type": "BodyTemplate1",
-            "token": "string",
-            "backButton": "VISIBLE",
-            "backgroundImage": "Image",
-            "title": "string",
-            "textContent": {
-              "primaryText": {
-                "text": "string",
-                "type": "string"
-              },
-              "secondaryText": {
-                "text": "string",
-                "type": "string"
-              },
-              "tertiaryText": {
-                "text": "string",
-                "type": "string"
-              }
-            }
-          }
+        "type": "Display.RenderTemplate",
+        "template": {
+          "type": "string"
         }
-
+      }
     // response.directives = [dir];
     // response.card(card);
     response.directive(dir)
