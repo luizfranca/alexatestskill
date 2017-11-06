@@ -74,7 +74,7 @@ app.intent('cesardirective',
         "contentDescription": "My favorite car",
         "sources": [
           {
-            "url": "https://www.example.com/my-favorite-car.png"
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Logo_CESAR.png"
           }
         ]
       },
