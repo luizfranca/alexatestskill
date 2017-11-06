@@ -75,6 +75,14 @@ Maecenas vel mattis dui. Etiam odio ligula, venenatis sit amet magna vel, porta 
 \
 In sit amet elit in dolor rhoncus feugiat fringilla vel arcu. Morbi tempor blandit lectus sed tincidunt. Praesent at eros porta, lacinia ante ut, rhoncus leo. Aenean et vehicula metus. Praesent ut convallis urna. Curabitur sed varius ex. Donec blandit justo sapien, sed malesuada ipsum tincidunt varius.",
                 "type": "PlainText"
+              },
+              "secondaryText": {
+                "type": "PlainText",
+                "text": "Secondary Text what what"
+              },
+              "tertiaryText": {
+                "type": "PlainText",
+                "text": "the end"
               }
             }
         }
