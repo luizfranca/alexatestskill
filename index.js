@@ -6,8 +6,9 @@ var app = new alexa.app( 'alexatestskill' );
 
 
 app.launch( function( request, response ) {
-    response.say( 'Welcome to Cesar' ).reprompt( 'Way to go. \
-        You got it to run. Bad ass.' ).shouldEndSession( false );
+    response.say( 'Welcome to Cesar! How can I help you?' ).reprompt( "I'm \
+      sorry, I didn't hear anything. Can you\
+      repeat?" ).shouldEndSession( false );
 } );
 
 
@@ -64,10 +65,11 @@ app.intent('cesardirective',
           "backgroundImage": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Logo_CESAR.png",
           "title": "This is a title",
           "textContent": {
-            "primaryText": {
-              "text": "This is the text content of this card, i have no idea what to write\
-            so i'm just going to write a lot of text to test the scroll",
-              "type": "string"
+              "primaryText": {
+                "text": "This is the text content of this card, i have no idea what to write\
+              so i'm just going to write a lot of text to test the scroll",
+                "type": "string"
+              }
             }
         }
       }
