@@ -62,19 +62,17 @@ app.intent('cesardirective',
           "type":"BodyTemplate1",
           "token": "A2079",
           "backButton": "VISIBLE",
-          "backgroundImage": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Logo_CESAR.png",
           "title": "This is a title",
           "textContent": {
               "primaryText": {
-                "text": "This is the text content of this card, i have no idea what to write\
+                "text": "This is the text content of this card, I have no idea what to write\
               so i'm just going to write a lot of text to test the scroll",
-                "type": "string"
+                "type": "PlainText"
               }
             }
         }
       }
 
-    // response.directives = [dir];
     // response.card(card);
     response.directive(dir)
     response.say(message);
