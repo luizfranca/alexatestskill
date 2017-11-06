@@ -55,46 +55,18 @@ app.intent('cesardirective',
       "content": message
     }
 
-    dir = 
-        {
-  "type": "Display.RenderTemplate",
-  "template": {
-    "type": "BodyTemplate2",
-    "token": "A2079",
-    "backButton": "VISIBLE",
-    "backgroundImage": {
-      "contentDescription": "Textured grey background",
-      "sources": [
-        {
-          "url": "https://www.example.com/background-image1.png"
-        }
-      ],
-      "title": "My Favorite Car",
-      "image": {
-        "contentDescription": "My favorite car",
-        "sources": [
-          {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Logo_CESAR.png"
-          }
-        ]
-      },
-      "textContent": {
-        "primaryText": {
-          "text": "See my favorite car",
-          "type": "PlainText"
-        },
-        "secondaryText": {
-          "text": "Custom-painted",
-          "type": "PlainText"
-        },
-        "tertiaryText": {
-          "text": "By me!",
-          "type": "PlainText"
+    dir = {
+      "type": "Display.RenderTemplate",
+        "template": {
+          "type":"BodyTemplate1",
+          "token": "A2079",
+          // "backButton": "VISIBLE"(default) | "HIDDEN",
+          "backgroundImage": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Logo_CESAR.png",
+          "title": "This is a title",
+          "textContent": "This is the text content of this card, i have no idea what to write\
+          so i'm just going to write a lot of text to test the scroll"
         }
       }
-    }
-  }
-}
 
     // response.directives = [dir];
     // response.card(card);
