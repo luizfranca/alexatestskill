@@ -29,14 +29,14 @@ app.intent('cesarinfo',
   function(request,response) {
   	message = "We are a private innovation centre that creates products, services and businesses involving Communication and Information Technologies (ICTs). Since 1996, we develop solutions that permeate the whole process of generating innovation in and with ICTs – from idea development, passing through conception and prototyping, up to the execution of projects for organizations from various sectors, such as telecom, electronics, defence, commercial automation, finances, logistics, energy, health and agribusiness. In 2016, CESAR’s innovation project sales surpassed R$ 78 million."
 
-  	// card = {
-   //    "type": "simple",
-   //    "title": "CESAR Info",
-   //    "content": message
-   //  }
+  	card = {
+      "type": "simple",
+      "title": "CESAR Info",
+      "content": message
+    }
 
 
-  	// response.card(card);
+  	response.card(card);
     response.say(message);
   }
 );
