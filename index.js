@@ -41,7 +41,7 @@ app.intent('cesarinfo',
   }
 );
 
-app.intent('cesarinfo2',
+app.intent('cesardirective',
   {
     "utterances":[ 
         "show info"]
